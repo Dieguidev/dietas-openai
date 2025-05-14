@@ -1,7 +1,12 @@
 {
-  "name": "1.traducciones-openia",
+  "name": "nutricion-openia",
   "version": "1.0.0",
-  "description": "proyecto de traducciones usando JavaScript y el api de openai",
+  "description": "proyecto de nutricion openia",
+  "keywords": [
+    "openai",
+    "nutricion",
+    "traducciones"
+  ],
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
@@ -10,20 +15,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dieguidev/traducciones-openIA.git"
+    "url": "git+https://github.com/Dieguidev/dietas-openai"
   },
   "author": "dieguidev",
   "license": "MIT",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/Dieguidev/traducciones-openIA/issues"
+    "url": "https://github.com/Dieguidev/dietas-openai/issues"
   },
-  "homepage": "https://github.com/Dieguidev/traducciones-openIA#readme",
+  "homepage": "https://github.com/Dieguidev/dietas-openai#readme",
   "dependencies": {
-    "1.traducciones-openia": "file:",
     "axios": "^1.9.0",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "nutricion-openia": "file:",
     "openai": "^4.97.0"
   },
   "devDependencies": {
